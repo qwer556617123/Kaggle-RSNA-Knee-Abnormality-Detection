@@ -1,12 +1,14 @@
 [build-system]
-requires = ["setuptools>=68"]
+requires = ["setuptools>=77.0.3"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "rsna-knee"
 version = "0.1.0"
-description = "Offline MRI research utilities and validation tools from an RSNA knee competition project"
+description = "Offline MRI research toolkit for RSNA Knee Abnormality Detection: DICOM preprocessing, study-level models, grouped validation, and experiment analysis."
 readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
 requires-python = ">=3.10"
 dependencies = [
   "numpy>=1.24",
